@@ -24,7 +24,7 @@
             <span>fechar</span>
         </div>
 
-        <header>
+        <header id="home">
             <div class="img-wrapper">
                 <img src="images/background.jpg" alt="">
             </div>
@@ -39,10 +39,10 @@
             <nav>
                 <ul class="menu">
                     <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
-                    <li class="menu-item"><a href="" class="menu-link">Conhecimento</a></li>
-                    <li class="menu-item"><a href="" class="menu-link">Projetos</a></li>
-                    <li class="menu-item"><a href="" class="menu-link">Contatos</a></li>
-                    <li class="menu-item"><a href="" class="menu-link">Orçamentos</a></li>
+                    <li class="menu-item"><a href="#conhecimentos" class="menu-link">Conhecimento</a></li>
+                    <li class="menu-item"><a href="#projetos" class="menu-link">Projetos</a></li>
+                    <li class="menu-item"><a href="#contato" class="menu-link">Contatos</a></li>
+                    <li class="menu-item"><a href="#orcamento" class="menu-link">Orçamentos</a></li>
                 </ul>
             </nav>
             <div class="social-media">
@@ -52,7 +52,7 @@
             </div>
         </aside>
 
-        <section class="sessao-conhecimentos">
+        <section class="sessao-conhecimentos" id="conhecimentos">
             <div class="sessao-header">
                 <h1>Conhecimentos</h1>
             </div>
@@ -117,7 +117,7 @@
             </div>
         </section>
 
-        <section class="sessao-projetos">
+        <section class="sessao-projetos" id="projetos">
             <div class="sessao-header">
                 <h1>Projetos</h1>
             </div>
@@ -158,7 +158,7 @@
             </div>
         </section>
 
-        <section class="sessao-contato">
+        <section class="sessao-contato" id="contato">
             <div class="contato-wrapper">
                 <div class="contato-left"></div>
                 <div class="contato-right">
@@ -182,7 +182,7 @@
             </div>
         </section>
 
-        <section class="sessao-orcamento">
+        <section class="sessao-orcamento" id="orcamento">
             <div class="orcamento-wrapper">
                 <h1>Faça um orçamento</h1>
                 <form>
@@ -202,12 +202,31 @@
                         </div>
                     </div>
                     <label for="prazo">Prazo</label>
-                    <input type="range" name="prazo" id="prazo">
+                    <input type="range" name="prazo" id="prazo" min="1" max="10">
+                    <label id="preco">R$ 0,00</label>
                     <button class="btn btn-orcamento" type="submit">Enviar</button>
                 </form>
             </div>
         </section>
 
+
+        <footer>
+            <div class="footer-content">
+                <p>
+                    Copyright &copy; 2020, LUIZ MIGUEL - Todos os diretos reservados
+                </p>
+                <div class="social-list">
+                    <ul>
+                        <li><a href=""><i class="fab fa-facebook"></i></a></li>
+                        <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                        <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <a href="#home" id="link-topo">
+            <i class="fas fa-arrow-up"></i>
+        </a>
 
     </div>
 
