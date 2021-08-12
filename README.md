@@ -8,5 +8,5 @@
 
 - :package: nova funcionalidade
 - :up: atualização
-- :lady beetle: correção de bug
+- 🐞 correção de bug
 - :checkered_flag: release
