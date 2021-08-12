@@ -8,5 +8,5 @@
 
 - :package: nova funcionalidade
 - :up: atualização
-- :beatle: correção de bug
+- :betle: correção de bug
 - :checkered_flag: release
